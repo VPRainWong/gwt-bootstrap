@@ -52,7 +52,7 @@ public interface Resources extends ClientBundle {
 	 * 
 	 * @return the jQuery JavaScript Library
 	 */
-	@Source("js/jquery-1.11.0.min.js")
+	@Source("js/jquery-3.5.1.min.js")
 	TextResource jquery();
 
 	/**
