@@ -9,6 +9,10 @@ Bootstrap provides simple and flexible components representing Bootstrap compone
 and plugins.
 In other words, it's a front-end API for faster, more beautiful GWT web development.
 
+## Releases
+* 2.3.2.2 - Released on 2 March 2021.
+  * Fix jQuery vulnerability for [Visual Paradigm Online](https://online.visual-paradigm.com)
+
 ## Links
 
 * [Showcase](http://gwtbootstrap.github.com)
