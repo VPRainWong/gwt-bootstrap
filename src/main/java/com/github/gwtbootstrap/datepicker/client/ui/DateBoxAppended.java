@@ -61,8 +61,9 @@ public class DateBoxAppended extends AppendButton implements HasValue<Date>,
     private class DateBoxAppendedAdapter extends DateBoxBase {
         @Override
         protected void configure() {
-            DateBoxAppended.this.addStyleName("date");
-            super.configure(this);
+        	DateBoxAppended that = DateBoxAppended.this;
+          that.addStyleName("date");
+          super.configure(that);
         }
     }
 
